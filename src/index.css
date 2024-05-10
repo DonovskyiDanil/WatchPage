@@ -1,0 +1,51 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Ð¦ÐµÐ½Ñ‚Ñ€Ð¸Ñ€ÑƒÐµÑ‚ ÑÐ¾Ð´ÐµÑ€Ð¶Ð¸Ð¼Ð¾Ðµ Ð¿Ð¾ Ð²ÐµÑ€Ñ‚Ð¸ÐºÐ°Ð»Ð¸ */
+  align-items: center;      /* Ð¦ÐµÐ½Ñ‚Ñ€Ð¸Ñ€ÑƒÐµÑ‚ ÑÐ¾Ð´ÐµÑ€Ð¶Ð¸Ð¼Ð¾Ðµ Ð¿Ð¾ Ð³Ð¾Ñ€Ð¸Ð·Ð¾Ð½Ñ‚Ð°Ð»Ð¸ */
+  margin: 120px;
+  padding: 0px;
+  background-color: rgb(238, 233, 158);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+               'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+               sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: -10px; /* Ð Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ Ð´Ð¾ Ð²Ð½ÐµÑˆÐ½ÐµÐ¹ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñ‹ */
+  left: -10px;
+  right: -10px;
+  bottom: -10px;
+  border: 2px solid #ff0000; /* Ð’Ð½ÑƒÑ‚Ñ€ÐµÐ½Ð½ÑÑ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ð° ÐºÑ€Ð°ÑÐ½Ð¾Ð³Ð¾ Ñ†Ð²ÐµÑ‚Ð° */
+  z-index: -1;
+}
+
+body::after {
+  content: "";
+  position: absolute;
+  top: -16px; /* Ð£Ð²ÐµÐ»Ð¸Ñ‡Ð¸Ð²Ð°ÐµÐ¼Ð¾Ðµ Ñ€Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ Ð´Ð¾ Ð²Ð½ÐµÑˆÐ½ÐµÐ¹ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ñ‹ */
+  left: -16px;
+  right: -16px;
+  bottom: -16px;
+  border: 2px solid #08cef6; /* Ð’Ð½ÐµÑˆÐ½ÑÑ Ð³Ñ€Ð°Ð½Ð¸Ñ†Ð° ÑÐ¸Ð½ÐµÐ³Ð¾ Ñ†Ð²ÐµÑ‚Ð° */
+  z-index: -2;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+header, aside,div{
+  margin-bottom: 20px;
+}

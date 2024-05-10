@@ -1,0 +1,91 @@
+.watch-container {
+    border: 2px solid #08cef6;
+    padding: 140px 165px 5px;
+    margin: 20px auto 140px;
+    width: 485px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 180px;
+    top: 140px;
+    height: 200px;
+}
+
+.movie-list {
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.watch-item {
+    background-color: orange;
+    border: 1px solid rgb(161, 36, 36);
+    margin: 5px;
+    width: 750px; 
+    min-height: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -130px; 
+    right: 130px; 
+}
+
+.delete-btn {
+    position: absolute;
+    top: 50%;
+    left: 720px;
+    transform: translateY(-50%);
+    padding: 5px;
+    border: 1px solid black;
+    color: black;
+    cursor: pointer;
+    background: transparent;
+}
+
+.content {
+    flex-grow: 1;
+    font-size: 12px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+
+form input[type="text"], form button {
+    padding: 6px;
+    margin: 5px 8px;
+    border: 1px solid #ccc;
+}
+
+form input[type="text"] {
+    width: 500px; 
+    padding: 6px;
+    margin: 5px 8px; 
+    border: 1px solid #ccc;
+}
+
+form button {
+    width: 10%; 
+    background-color: #5cacb8;
+    padding: 6px;
+    border: 1px solid #ccc;
+}
+
+.movie-form {
+    width: 160%; 
+    margin: auto; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 150px;
+    margin-top: -170px;
+}
+
+.movie-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
